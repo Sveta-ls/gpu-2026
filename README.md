@@ -979,6 +979,7 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |3823B1PE3|dergachev_arseniy|0.2382|1|
 |3823B1PE1|rusakova_aleksandra|0.2386|2|
 |3823B1FI3|lifanov_kirill|0.2386|1|
+|3823B1PE2|posternak_alexey|0.2392|13|
 |3823B1PE3|samoylenko_ilya|0.2398|12|
 |3823B1PE4|dilshodov_adkham|0.2399|1|
 |3823B1PE4|safronov_maksim|0.2408|11|
@@ -1025,7 +1026,6 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |3823B1PE3|afanasyev_alexandr|0.4589|6|
 |3823B1PE2|zorin_danila_artemovich|0.4599|3|
 |3823B1PE4|sinev_timur|0.4601|7|
-|3823B1PE2|posternak_alexey|TEST FAILED|-|
 |3823B1PE4|trofimov_nikita|TEST FAILED|-|
 |3823B1PE4|kaur_alexander|TEST FAILED|-|
 
@@ -1085,23 +1085,23 @@ Passed: 15
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
 |3823B1PE2|akhmetov_daniil|**8/8**|**427**|
-|3823B1PE2|klimenko_vladislav|**8/8**|**429**|
-|3823B1PE2|kolotukhin_alexander|**8/8**|**418**|
-|3823B1PE2|kotelnikova_anastasia|**8/8**|**417**|
-|3823B1PE2|olesnitskiy_vladimir|**8/8**|**380**|
+|3823B1PE2|klimenko_vladislav|**8/8**|**428**|
+|3823B1PE2|kolotukhin_alexander|**8/8**|**417**|
+|3823B1PE2|kotelnikova_anastasia|**8/8**|**416**|
+|3823B1PE2|olesnitskiy_vladimir|**8/8**|**379**|
 |3823B1PE2|ovchinnikov_matvey|5/8|253|
-|3823B1PE2|posternak_alexey|7/8|340|
-|3823B1PE2|romanov_rodion|**8/8**|**327**|
+|3823B1PE2|posternak_alexey|**8/8**|**389**|
+|3823B1PE2|romanov_rodion|**8/8**|**326**|
 |3823B1PE2|shakirova_esenia|3/8|141|
-|3823B1PE2|sinev_artem|**8/8**|**415**|
-|3823B1PE2|tsyplakov_kirill|7/8|318|
-|3823B1PE2|vasiliev_mikhail|**8/8**|**450**|
+|3823B1PE2|sinev_artem|**8/8**|**414**|
+|3823B1PE2|tsyplakov_kirill|7/8|317|
+|3823B1PE2|vasiliev_mikhail|**8/8**|**449**|
 |3823B1PE2|viderman_aleksandra|**8/8**|**459**|
-|3823B1PE2|zorin_danila_artemovich|**8/8**|**410**|
+|3823B1PE2|zorin_danila_artemovich|**8/8**|**409**|
 |3823B1PE2|zyazeva_svetlana|4/8|162|
 |3823B1PE2|zyuzin_nikita|**8/8**|**418**|
 
-Passed: 11
+Passed: 12
 
 ## 3823B1PE3
 |Group|Name|Passed|Score|
@@ -1148,7 +1148,7 @@ Passed: 13
 
 Passed: 15
 
-**Total Passed: 59**
+**Total Passed: 60**
 
 ---
 *Maximum Score: 512 (64 per task)*
